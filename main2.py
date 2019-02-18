@@ -1,2 +1,2 @@
 def deneme(x,y):
-    x + y 
+    x + y
