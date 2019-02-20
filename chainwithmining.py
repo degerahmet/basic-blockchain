@@ -24,6 +24,7 @@ for i in range(maxNonce):
         print(genesis)
         break
 
+
     else:
         genesis.nonce += 1
 
@@ -33,9 +34,9 @@ for i in range(1, num_blocks_to_add + 1):
                              "Block number %d" % i,
                              datetime.datetime.now()))
 
-#block_chain listesi oluştu fakat genesis dışındakilerin nonce değeri 0 o yüzden mine başlamalı
-
-print("Mine starting...")
+print("\n*********************************************")
+print("\n...............Mine starting.................")
+print("\n*********************************************")
 
 f = 1
 
@@ -47,7 +48,7 @@ for i in block_chain:
 
             real_chain.append(i)
 
-            print("---------------------------------------------\n")
+            print("\n---------------------------------------------\n")
 
             print(i)
 
