@@ -3,6 +3,7 @@ import datetime
 import time
 
 diff = 20
+
 maxNonce = 2**32
 target = 2**(256-diff)
 
@@ -38,7 +39,7 @@ print("\n*********************************************")
 print("\n...............Mine starting.................")
 print("\n*********************************************")
 
-f = 1
+
 
 for i in block_chain:
 
