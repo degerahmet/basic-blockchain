@@ -77,7 +77,7 @@ while True :
             print("\nMine starting...\n")
 
             if blocks == []:
-                print("if")
+
                 blocks.append(InputBlock("0", "Genesis", datetime.datetime.now(), sender_id, receiver_id, amount))
 
                 for i in range(maxNonce):
@@ -103,7 +103,7 @@ while True :
 
 
             else:
-                print("else")
+
                 blocks.append(
                     InputBlock(blocks[-1].hash, "Block %d" % s, datetime.datetime.now(), sender_id, receiver_id,
                                amount))
